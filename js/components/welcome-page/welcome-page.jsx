@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 import "./welcome-page.scss";
 import Map from "../../components/component-map/map.jsx";
 
@@ -11,6 +12,8 @@ class  WelcomePage extends Component {
     };
     this.handleStartClick = this.handleStartClick.bind(this)  
   }
+
+  
 
   handleStartClick = () => {
     // console.log("Start clicked!");
