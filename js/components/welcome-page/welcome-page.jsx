@@ -1,4 +1,11 @@
 import React, { Component } from "react";
+import {
+  HashRouter,
+  Route,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
 
 
 import "./welcome-page.scss";
@@ -30,10 +37,16 @@ let active = this.state.activeWelcomPage;
       <>
       <div className={active ? "fadeIn" : "fadeOut"}>
           <div className="main-page">
-            <div className="main-page-btn"
+            {/* <div className="main-page-btn"
                 onClick={this.handleStartClick}
             >
               Zaczynajmy
+            </div> */}
+            <div >
+              
+              <Link className="main-page-btn" to={"/map"} 
+              onClick={this.handleStartClick}
+              >Zaczynajmy</Link>
             </div>
           </div>
           </div>

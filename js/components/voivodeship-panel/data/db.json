@@ -1,0 +1,148 @@
+{
+    "voivodeship": [
+      {
+        "id": "pl-ds",
+        "title": "Dolnośląskie",
+        "area": "19 946,7",
+        "population": "2 902 365",
+        "main_cities": ["Wrocław","Legnica","Jelenia Góra","Wałbrzych"],
+        "description": "Jednostka podziału administracyjnego Polski, jedno z 16 województw, ze stolicą we Wrocławiu. Zostało utworzone w 1999 roku z ziem poprzednich województw wrocławskiego, legnickiego, jeleniogórskiego, wałbrzyskiego i części leszczyńskiego oraz kaliskiego. Województwo to jest położone na południowym zachodzie Polski, obejmuje zachodnią część historycznego Śląska, czyli większość Dolnego Śląska, a także ziemię kłodzką, wschodnie Łużyce Górne oraz niewielki skrawek historycznej Saksonii (Bogatynia i okolice).",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/7/7a/POL_wojew%C3%B3dztwo_dolno%C5%9Bl%C4%85skie_COA.svg"
+      },
+      {
+        "id": "pl-kp",
+        "title": "Kujawsko-Pomorskie",
+        "area": "17 971,34",
+        "population": "2 077 775",
+        "main_cities": ["Bydgoszcz","Toruń", "Grudziąc"],
+        "description": " Jedno z 16 polskich województw leżące w północno-centralnej części kraju. Zostało utworzone na mocy ustawy z dnia 24 lipca 1998 w przybliżeniu z dawnych województw: bydgoskiego, toruńskiego i włocławskiego. 31 grudnia 2018 województwo liczyło 2,08 mln mieszkańców. Urzędy i jednostki szczebla wojewódzkiego zostały rozdzielone pomiędzy dwa główne miasta regionu. Siedziba wojewody oraz większości urzędów administracji państwowej została ustanowiona w Bydgoszczy, natomiast siedziba sejmiku województwa oraz organów administracji samorządowej w Toruniu. Patronem województwa jest św. Jan Paweł II. Święto regionu, ustanowione w 2008, obchodzone jest 7 czerwca.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/7/79/POL_wojew%C3%B3dztwo_kujawsko-pomorskie_COA.svg"
+      },
+      {
+        "id": "pl-ld",
+        "title": "Łódzkie",
+        "area": "18 218,95",
+        "population": "2 466 322",
+        "main_cities": ["Łódź","Piotrków Trybunalski"],
+        "description": "Jedno z 16 województw Polski, położone w centralnej części kraju. Obejmuje obszar o powierzchni 18 218,95 km². Według danych z 31 grudnia 2018 województwo zamieszkiwało 2,5 mln osób. Ma najmniejszą lesistość w kraju. Siedzibą władz województwa jest Łódź.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/a/af/POL_wojew%C3%B3dztwo_%C5%82%C3%B3dzkie_COA.svg"
+      },
+      {
+        "id": "pl-lu",
+        "title": "Lubelskie",
+        "area": "25 122,46",
+        "population": "2 126 317",
+        "main_cities": ["Lublin","Świdnik"],
+        "description": "Jednostka samorządu terytorialnego i podziału administracyjnego we wschodniej Polsce, o powierzchni 25 122,46 km². Obejmuje głównie południową połowę Niziny Południowopodlaskiej, Polesie Zachodnie i Wołyńskie (po Bug) oraz Wyżynę Lubelską, mały obszar Wyżyny Wołyńskiej, większość polskiego Roztocza i skraj Kotliny Sandomierskiej. Według danych GUS w 2017 roku zamieszkiwało je 2,126 mln osób. Siedzibą władz wojewódzkich jest Lublin. Jest najdalej wysuniętym na wschód województwem w Polsce.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/4/4d/POL_wojew%C3%B3dztwo_lubelskie_COA.svg"
+      },
+      {
+        "id": "pl-lb",
+        "title": "Lubuskie",
+        "area": "13 987,93",
+        "population": "1 014 548",
+        "main_cities": ["Zielona Góra","Świebodzin"],
+        "description": "Województwo w zachodniej Polsce, utworzone w 1999 roku – w wyniku reformy administracyjnej – z większości terytoriów dawnych województw: gorzowskiego i zielonogórskiego oraz niewielkiej części leszczyńskiego, a funkcjonujące od 1 stycznia 1999. Siedzibą wojewody jest Gorzów Wielkopolski, zaś władz samorządu województwa – Zielona Góra.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/c/c6/POL_wojew%C3%B3dztwo_lubuskie_COA.svg"
+      },
+      {
+        "id": "pl-ma",
+        "title": "Małopolskie",
+        "area": "15 182,87",
+        "population": "3 391 400",
+        "main_cities": ["Kraków","Rabka Zdrój"],
+        "description": "Jedno z 16 województw Polski. Województwo zajmuje powierzchnię 15 182 km² i jest jednym z mniejszych w Polsce (12 miejsce w kraju). Województwo ma 3,4 mln mieszkańców (31 grudnia 2017), zajmując pod tym względem 4. miejsce w Polsce. Gęstość zaludnienia jest drugą najwyższą w kraju po woj. śląskim (małopolskie – 223 osób/km², śląskie – 372 osób/km², średnia krajowa – 123 osób/km²). W obecnym kształcie powstało 1 stycznia 1999 r. w wyniku reformy administracyjnej.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/d/d2/POL_wojew%C3%B3dztwo_ma%C5%82opolskie_COA.svg"
+      },
+      {
+        "id": "pl-mz",
+        "title": "Mazowieckie",
+        "area": "35 558,47",
+        "population": "5 391 813",
+        "main_cities": ["Warszawa","Wyszków"],
+        "description": "Jednostka podziału administracyjnego Polski, największe pod względem powierzchni i ludności województwo, znajdujące się w środkowej i wschodniej części Polski. Obejmuje obszar o powierzchni 35 558,47 km². Według danych z 30 czerwca 2018 r. miało 5,39 mln mieszkańców. Siedzibą władz województwa jest Warszawa. Województwo zostało utworzone 1 stycznia 1999 roku.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/6/69/POL_wojew%C3%B3dztwo_mazowieckie_COA.svg"
+      },
+      {
+        "id": "pl-op",
+        "title": "Opolskie",
+        "area": "9411,87",
+        "population": "991 161",
+        "main_cities": ["Opole","Brzeg"],
+        "description": "Jedno z 16 województw w Polsce. Obejmując obszar o powierzchni 9412 km² jest obecnie najmniejszym województwem w Polsce. Według danych z 30 czerwca 2017 r. było też województwem z najmniejszą liczbą mieszkańców – 991 161 mieszkańców. Siedzibą władz województwa jest Opole.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/5/57/POL_wojew%C3%B3dztwo_opolskie_COA.svg"
+      },
+      {
+        "id": "pl-pk",
+        "title": "Podkarpackie",
+        "area": "17 845,76",
+        "population": "2 129 138",
+        "main_cities": ["Rzeszów","Przemyśl"],
+        "description": "Jednostka podziału administracyjnego Polski, jedno z 16 województw utworzonych w 1999 roku. Powstało poprzez scalenie ziem województw przemyskiego i rzeszowskiego, oraz części krośnieńskiego, tarnobrzeskiego i tarnowskiego. Tym samym objęło obszar podobny do dawnego województwa rzeszowskiego sprzed reformy w 1975 roku (z wyjątkiem powiatu gorlickiego). Obecnie województwo zajmuje powierzchnię 17 845,76 km² i zajmuje 11. miejsce w kraju. Pod względem liczby mieszkańców (2,13 mln osób) znajduje się na 9. miejscu w Polsce. Jest najdalej wysuniętym na południe województwem Polski.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/6/61/POL_wojew%C3%B3dztwo_podkarpackie_COA.svg"
+      },
+      {
+        "id": "pl-pd",
+        "title": "Podlaskie",
+        "area": "20 187,02 ",
+        "population": "1 187 587",
+        "main_cities": ["Białystok","Biała Podlaska"],
+        "description": "Jednostka podziału administracyjnego Polski, jedno z 16 województw. Położone jest w północno-wschodniej części kraju, w geograficznym środku Europy. Przez jego środek przepływa Narew. Siedzibą władz województwa jest Białystok. Na dzień 30 czerwca 2016 województwo miało 1,2 mln mieszkańców. Obejmuje obszar 20 187,02 km².",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/e/e4/POL_wojew%C3%B3dztwo_podlaskie_COA.svg"
+      },
+      {
+        "id": "pl-pm",
+        "title": "Pomorskie",
+        "area": "18 310,34",
+        "population": "2 333 523",
+        "main_cities": ["Gdańsk","Słupsk"],
+        "description": "(kaszub.: Pòmòrsczé wòjewództwò) – jednostka podziału administracyjnego Polski, jedno z 16 województw, położone w północnej części kraju. Siedzibą władz województwa jest Gdańsk. Obejmuje obszar o powierzchni 18 310,34 km². Jest najdalej wysuniętym na północ województwem państwa. 31 grudnia 2018 roku województwo miało 2 333 523 mieszkańców.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/3/3b/POL_wojew%C3%B3dztwo_pomorskie_COA.svg"
+      },
+      {
+        "id": "pl-sl",
+        "title": "Śląskie",
+        "area": "12 333,09",
+        "population": "4 564 394",
+        "main_cities": ["Katowice","Częstochowa"],
+        "description": "Jednostka samorządu terytorialnego i jednostka podziału administracyjnego Polski o powierzchni 12 333,09 km², położona na obszarze Niziny Śląskiej, Wyżyny Śląsko-Krakowskiej, Kotliny Oświęcimskiej, Pogórza Zachodniobeskidzkiego, Beskidów Zachodnich. Obejmuje wschodnią część Górnego Śląska i zachodnią część zachodniej Małopolski, w tym Zagłębie Dąbrowskie, Zagłębie Krakowskie, Żywiecczyznę i Częstochowę. Zamieszkuje je 4,57 mln osób. Jest województwem o najwyższym stopniu urbanizacji i gęstości zaludnienia. Siedzibą władz województwa są Katowice. Województwo śląskie jest jedynym województwem w Polsce, w którym jest więcej miast na prawach powiatu (19) niż powiatów (17). Na jego terenie funkcjonuje jedyny w Polsce związek metropolitalny – Górnośląsko-Zagłębiowska Metropolia.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/c/c9/POL_wojew%C3%B3dztwo_%C5%9Bl%C4%85skie_COA.svg"
+      },
+      {
+        "id": "pl-sk",
+        "title": "Świętokrzyskie",
+        "area": "11 710,50 ",
+        "population": "1 241 546",
+        "main_cities": ["Kielce","Ostrowiec Świętokrzyskie"],
+        "description": "Jednostka podziału administracyjnego w południowej części centralnej Polski. Województwo obejmuje obszar 11 710,50 km² i zamieszkuje je 1,24 mln osób. Jest jednym z 16 województw utworzonych w 1999 roku. W przybliżeniu obejmuje większą część obszaru dawnego województwa kieleckiego, część tarnobrzeskiego (powiaty opatowski, sandomierski i staszowski) oraz skrawki radomskiego, piotrkowskiego i częstochowskiego.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/3/36/POL_wojew%C3%B3dztwo_%C5%9Bwi%C4%99tokrzyskie_COA.svg"
+      },
+      {
+        "id": "pl-wm",
+        "title": "Warmińsko-Mazurskie",
+        "area": "24 173,17",
+        "population": "1 434 783[",
+        "main_cities": ["Olsztyn","Iława"],
+        "description": "jednostka podziału administracyjnego Polski, jedno z 16 województw. Położone jest w północno-wschodniej części kraju. Siedzibą wojewody i władz samorządu województwa jest Olsztyn. Obejmuje obszar 24 173,47 km² i liczy 1,43 mln mieszkańców (30 czerwca 2017).",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Warminsko-mazurskie_herb.svg"
+      },
+      {
+        "id": "pl-wp",
+        "title": "Wielkopolskie",
+        "area": "29 826,50",
+        "population": "3 493 969",
+        "main_cities": ["Poznań","Konin"],
+        "description": " województwo utworzone w 1999 w środkowo-zachodniej Polsce, na Pojezierzu Wielkopolskim i Nizinie Południowowielkopolskiej, w dorzeczu środkowej Warty; dzieli się na 4 miasta na prawach powiatu, 31 powiatów i 226 gmin, które zamieszkuje 3,49 mln osób (1 stycznia 2019 r.); siedzibą wojewody i władz samorządu województwa jest Poznań. Województwo wielkopolskie zajmuje drugie miejsce w kraju pod względem powierzchni i trzecie pod względem liczby ludności. Na obszarze województwa leży aglomeracja kalisko-ostrowska i aglomeracja poznańska oraz Kalisko-Ostrowski Okręg Przemysłowy, Konińskie Zagłębie Węgla Brunatnego i Poznański Okręg Przemysłowy.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/7/7b/POL_wojew%C3%B3dztwo_wielkopolskie_COA.svg"
+      },
+      {
+        "id": "pl-zp",
+        "title": "Zachodniopomorskie",
+        "area": "22 892,48",
+        "population": "1 701 030",
+        "main_cities": ["Szczecin","Koszalin"],
+        "description": " województwo położone w północno-zachodniej części Polski, na wybrzeżu Morza Bałtyckiego. Graniczy na wschodzie z województwem pomorskim, na południu z województwami: wielkopolskim i lubuskim, a na zachodzie z niemieckimi krajami związkowymi: Brandenburgią i Meklemburgią-Pomorzem Przednim. Zajmuje obszar 22 892,48 km². 31 grudnia 2018 r. miało 1,7 mln mieszkańców. Siedzibą władz województwa jest Szczecin. Jest najdalej wysuniętym na zachód województwem w Polsce.",
+        "arms": "https://upload.wikimedia.org/wikipedia/commons/4/47/POL_wojew%C3%B3dztwo_zachodniopomorskie_COA.svg"
+      }
+    ]
+  }

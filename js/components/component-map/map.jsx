@@ -9,12 +9,50 @@ import {
 
 import "./map-style.scss";
 
+class Btn extends Component {
+  constructor(props){
+    super(props) 
+      this.state = {
+        choice : ""
+      }
+      console.log(this.props.choice)
+  }
+componentDidMount(){
+        this.setState({
+        choice : this.props.choice
+      })
+      
+      }
+  render(){
+      if(!this.props.choice == ""){
+        return (
+          <>
+
+          {/* <p>Przejdź do wojództwa: {this.props.land}</p>
+          <Link to={"/voivodeship/" +  this.props.choice}> Wejdź</Link> */}
+          <div className="map-land-info">
+          <h2 className="map-land-info__title">Przejdź do województwa:</h2>
+          <p>{this.props.land}</p>
+          <Link className="btn-choice" to={"/voivodeship/" +  this.props.choice}> Wejdź</Link>
+          </div>
+          </>
+        )
+      } else {
+        return (
+          <p>wybierz województwo</p>
+        )
+      }
+  }
+}
+
 class Map extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       activeLand: "",
+      id: "",
+      index: ""
     };
 
     this.changeMap = this.changeMap.bind(this);
@@ -24,11 +62,13 @@ class Map extends Component {
     this.setState({
       id: e.currentTarget.id,
       activeLand: e.currentTarget.getAttribute("title"),
+      index: e.currentTarget.getAttribute("index"),
     });
     const regions = document.getElementsByClassName('land');
   Array.from(regions).forEach(el => el.classList.remove('land--active'));
 
-  console.log("a", e.currentTarget.class);
+  // console.log("a", e.currentTarget.class);
+  // console.log(this.state.id);
   e.currentTarget.classList.add('land--active');
 }
 
@@ -40,7 +80,7 @@ class Map extends Component {
       <>
         <div className={active}>
           <div className="map">
-            <h1 className="map-title">Wybierz województwo</h1>
+            {/* <h1 className="map-title">Wybierz województwo</h1> */}
             <div className="box">
               <div className="map-box__svg">
                 {/* <?xml version="1.0" encoding="utf-8"?>
@@ -55,7 +95,7 @@ class Map extends Component {
                   <g>
                     <path
                       id="pl-ds"
-                      index="1"
+                      index="0"
                       title="Dolnośląskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -63,7 +103,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-kp"
-                      index="2"
+                      index="1"
                       title="Kujawsko-Pomorskie"
                       className="land"
                       // className={this.state.clicked === this.index ? '--active' : null}
@@ -72,6 +112,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-ld"
+                      index="2"
                       title="Łódzkie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -79,6 +120,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-lu"
+                      index="3"
                       title="Lubelskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -86,6 +128,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-lb"
+                      index="4"
                       title="Lubuskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -93,6 +136,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-ma"
+                      index="5"
                       title="Małopolskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -100,6 +144,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-mz"
+                      index="6"
                       title="Mazowieckie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -107,6 +152,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-op"
+                      index="7"
                       title="Opolskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -114,6 +160,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-pk"
+                      index="8"
                       title="Podkarpackie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -121,6 +168,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-pd"
+                      index="9"
                       title="Podlaskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -128,6 +176,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-pm"
+                      index="10"
                       title="Pomorskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -135,6 +184,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-sl"
+                      index="11"
                       title="Śląskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -142,6 +192,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-sk"
+                      index="12"
                       title="Świętokrzyskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -150,12 +201,14 @@ class Map extends Component {
                     <path
                       id="pl-wm"
                       title="Warmińsko-Mazurskie"
+                      index="13"
                       className="land"
                       onClick={e => this.changeMap(e)}
                       d="M349.54,42.09L447.16,54.74L529.02,49.56L529.02,49.56L528.27,57.07L520,58.04L512.56,62.04L509.92,66.41L514.58,72.33L517.33,71.84L519.93,76.82L518.46,81.22L528.8,94.94L529.53,100.02L524.75,110.05L519.23,112.63L517.93,116.52L516.57,114.79L509.03,118.71L509.59,122.01L506.65,120.2L502.73,122.83L482.63,139.05L480.31,136.64L476.28,137.97L472.44,143.16L461.82,139.6L456.33,140.85L456.33,140.85L447.34,142.4L441.91,146.9L436.57,145.86L423.09,155.74L415.85,153.17L415.22,157.26L412.04,157.03L410.72,160.08L402.65,158.06L398.89,164.28L392.57,166.96L386.63,164.84L381.79,168.59L382.45,173.28L378.11,175.85L367.4,175.14L364.98,172.91L357.74,174.87L353.57,172.1L353.84,168.1L348.73,171.12L349.39,175.11L344.22,174.33L344.22,174.33L342.97,166.72L339.81,165.98L342.29,162.19L339.59,154.53L330.46,155.3L329.03,151.59L325.1,152.36L321.42,147.28L316.29,149.77L314.39,148.4L309.92,131.72L306.5,130.19L306.5,130.19L306.06,127.26L311.27,123.72L311.43,118.55L316.14,113.51L317.13,106.9L324.99,107.16L327.13,110.36L333.96,91.38L322.89,93.79L323.03,87.54L315.78,85.73L315.77,82.15L311.32,80.12L313.07,69.14L317.47,65.51L313.77,58.93L313.77,58.93L320.71,59.96L322.43,58L320.79,64.66L328.05,54.14L338.74,50.42L343.43,42.43z"
                     />
                     <path
                       id="pl-wp"
+                      index="14"
                       title="Wielkopolskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -163,6 +216,7 @@ class Map extends Component {
                     />
                     <path
                       id="pl-zp"
+                      index="15"
                       title="Zachodniopomorskie"
                       className="land"
                       onClick={e => this.changeMap(e)}
@@ -172,11 +226,13 @@ class Map extends Component {
                 </svg>
               </div>
 
-              <div className="map-land-info">
-                <h2 className="map-land-info__title">Wybieram:
+               <div className="map-land-info__before"> 
+                {/* <h2 className="map-land-info__title">
                   {this.state.activeLand}
-                </h2>
-                <Link to={"/voivodeship/" + this.state.activeLand}> Wejdź</Link>
+                </h2>  */}
+
+                {/* <Link to={"/voivodeship/" +  this.state.index}> Wejdź</Link> */}
+                <Btn  choice={this.state.index} land={this.state.activeLand}>Wybierz </Btn>
               </div>
             </div>
           </div>
